@@ -1,0 +1,34 @@
+Data Discription - The data was collected from accelerometer and gyroscope readings of Samsung Galaxy S II smartphones affixed to the waists of 30 test subjects engaged in varying activities characterized as walking, walking up stairs, walking down stairs, sitting, standing, and laying.  
+
+Variable Description - There are two variants of the variables - those prefixed with 't' as temporal and those which have undergone Fourier transformation, prefixed with an 'f'.
+
+For each of three axes (X, Y, Z), the temporal variables groups are:
+    
+          tBodyAcc - Body Acceleration
+       tGravityAcc - Gravity Acceleration
+      tBodyAccJerk - Body Acceleration Jerk
+         tBodyGyro - Body Angular Acceleration
+     tBodyGyroJerk - Body Angular Acceleration Jerk
+
+The euclidean magnitude of these measure is contained in the variables groups:
+
+       tBodyAccMag - Magnitude of Body Acceleration
+    tGravityAccMag - Magnitude of Gravity Acceleration
+   tBodyAccJerkMag - Magnitude of Body Acceleration Jerk
+      tBodyGyroMag - Magnitude of Body Angular Acceleration
+  tBodyGyroJerkMag - Magnitude of Body Angular Acceleration Jerk
+
+Finaly the Fourier transformed variable groups are given as;
+
+          fBodyAcc - Fourier Transform of Body Acceleration
+      fBodyAccJerk - Fourier Transform of Body Acceleration Jerk
+         fBodyGyro - Fourier Transform of Body Angular Acceleration
+       fBodyAccMag - Fourier Transform of Magnitude of Gravity Acceleration
+   fBodyAccJerkMag - Fourier Transform of Magnitude of Body Acceleration Jerk
+      fBodyGyroMag - Fourier Transform of Magnitude of Body Angular Acceleration
+  fBodyGyroJerkMag - Fourier Transform of Magnitude of Body Angular Acceleration Jerk
+
+Of the 17 specific measure contained in each of these groups (mean(), std(), mad(), max(), min(), sma(), energy(), iqr(), entropy(), arCoeff(), correlation(), maxInds(), meanFreq(), skewness(), kurtosis(), bandsEnergy(), and angle()), we subset only the values given for mean and standard deviation (mean() and std()).
+
+
+
